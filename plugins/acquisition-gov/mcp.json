@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "acquisition-gov": {
+      "type": "http",
+      "url": "https://acquisition-gov.1102tools.com/mcp"
+    }
+  }
+}

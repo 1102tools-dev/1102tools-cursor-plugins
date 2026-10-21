@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sam-gov": {
+      "type": "http",
+      "url": "https://sam.1102tools.com/mcp"
+    }
+  }
+}

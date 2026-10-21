@@ -1,0 +1,20 @@
+{
+  "name": "regulations-gov",
+  "displayName": "Regulations.gov by 1102tools",
+  "version": "1.0.0",
+  "description": "Rulemaking dockets, documents and public comments from Regulations.gov. Free, hosted, no API key.",
+  "author": {
+    "name": "1102tools"
+  },
+  "homepage": "https://1102tools.com/mcp/regulations-gov",
+  "repository": "https://github.com/1102tools-dev/1102tools-cursor-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "federal-contracting",
+    "government",
+    "regulations.gov"
+  ],
+  "category": "integrations",
+  "mcpServers": "./mcp.json"
+}

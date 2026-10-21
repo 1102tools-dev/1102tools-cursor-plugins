@@ -1,0 +1,20 @@
+{
+  "name": "usaspending",
+  "displayName": "USAspending by 1102tools",
+  "version": "1.0.0",
+  "description": "Look up past federal awards: contracts, grants, recipients, agencies and subawards. Free, hosted, no API key.",
+  "author": {
+    "name": "1102tools"
+  },
+  "homepage": "https://1102tools.com/mcp/usaspending",
+  "repository": "https://github.com/1102tools-dev/1102tools-cursor-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "federal-contracting",
+    "government",
+    "usaspending"
+  ],
+  "category": "integrations",
+  "mcpServers": "./mcp.json"
+}

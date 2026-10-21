@@ -1,0 +1,20 @@
+{
+  "name": "federal-register",
+  "displayName": "Federal Register by 1102tools",
+  "version": "1.0.0",
+  "description": "Proposed and final rules, notices, comment periods and FAR case history. Free, hosted, no API key.",
+  "author": {
+    "name": "1102tools"
+  },
+  "homepage": "https://1102tools.com/mcp/federal-register",
+  "repository": "https://github.com/1102tools-dev/1102tools-cursor-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "federal-contracting",
+    "government",
+    "federal-register"
+  ],
+  "category": "integrations",
+  "mcpServers": "./mcp.json"
+}

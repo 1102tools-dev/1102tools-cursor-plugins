@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "usaspending": {
+      "type": "http",
+      "url": "https://usaspending.1102tools.com/mcp"
+    }
+  }
+}

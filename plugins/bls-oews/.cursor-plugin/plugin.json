@@ -1,0 +1,20 @@
+{
+  "name": "bls-oews",
+  "displayName": "BLS OEWS by 1102tools",
+  "version": "1.0.0",
+  "description": "BLS market wages by occupation and location for pricing proposals and IGCEs. Free, hosted, no API key.",
+  "author": {
+    "name": "1102tools"
+  },
+  "homepage": "https://1102tools.com/mcp/bls-oews",
+  "repository": "https://github.com/1102tools-dev/1102tools-cursor-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "federal-contracting",
+    "government",
+    "bls-oews"
+  ],
+  "category": "integrations",
+  "mcpServers": "./mcp.json"
+}

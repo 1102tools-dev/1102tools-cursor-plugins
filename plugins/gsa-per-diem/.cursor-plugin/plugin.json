@@ -1,0 +1,20 @@
+{
+  "name": "gsa-per-diem",
+  "displayName": "GSA Per Diem by 1102tools",
+  "version": "1.0.0",
+  "description": "GSA per diem lodging and M&IE rates by city, state or ZIP for pricing travel. Free, hosted, no API key.",
+  "author": {
+    "name": "1102tools"
+  },
+  "homepage": "https://1102tools.com/mcp/gsa-per-diem",
+  "repository": "https://github.com/1102tools-dev/1102tools-cursor-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "federal-contracting",
+    "government",
+    "gsa-per-diem"
+  ],
+  "category": "integrations",
+  "mcpServers": "./mcp.json"
+}

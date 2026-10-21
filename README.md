@@ -1,34 +1,33 @@
-# Cursor plugin template
+# 1102tools plugins for Cursor
 
-Build and publish Cursor Marketplace plugins from a single repo.
+Nine free hosted MCP servers for federal contracting data, packaged as Cursor plugins. Each plugin connects one server. There is no account to create and no API key to enter.
 
-Two starter plugins are included:
+| Plugin | What it covers | Page |
+|---|---|---|
+| SAM.gov | Contract opportunities, entity registrations, SBA certifications and exclusions | [1102tools.com/mcp/sam-gov](https://1102tools.com/mcp/sam-gov) |
+| USAspending | Past federal awards: contracts, grants, recipients, agencies and subawards | [1102tools.com/mcp/usaspending](https://1102tools.com/mcp/usaspending) |
+| eCFR | FAR, DFARS and agency supplement text, definitions, and what changed and when | [1102tools.com/mcp/ecfr](https://1102tools.com/mcp/ecfr) |
+| GSA CALC+ | Awarded labor ceiling rates for pricing proposals and IGCEs | [1102tools.com/mcp/gsa-calc](https://1102tools.com/mcp/gsa-calc) |
+| BLS OEWS | Market wages by occupation and location for pricing proposals and IGCEs | [1102tools.com/mcp/bls-oews](https://1102tools.com/mcp/bls-oews) |
+| GSA Per Diem | Lodging and M&IE rates by city, state or ZIP for pricing travel | [1102tools.com/mcp/gsa-per-diem](https://1102tools.com/mcp/gsa-per-diem) |
+| Federal Register | Proposed and final rules, notices, comment periods and FAR case history | [1102tools.com/mcp/federal-register](https://1102tools.com/mcp/federal-register) |
+| Regulations.gov | Rulemaking dockets, documents and public comments | [1102tools.com/mcp/regulations-gov](https://1102tools.com/mcp/regulations-gov) |
+| Acquisition.gov | FAR Overhaul model text, posted agency deviations and guidance | [1102tools.com/mcp/acquisition-gov](https://1102tools.com/mcp/acquisition-gov) |
 
-- **starter-simple**: rules and skills only
-- **starter-advanced**: rules, skills, agents, commands, hooks, MCP, and scripts
+## How it's laid out
 
-## Getting started
+Each plugin lives in `plugins/<name>/` with a `.cursor-plugin/plugin.json` manifest, an `mcp.json` that points to the hosted Streamable HTTP endpoint, and a logo. The marketplace manifest is `.cursor-plugin/marketplace.json`.
 
-[Use this template](https://github.com/cursor/plugin-template/generate) to create a new repository, then customize:
+To check the layout:
 
-1. `.cursor-plugin/marketplace.json`: set marketplace `name`, `owner`, and `metadata`.
-2. `plugins/*/.cursor-plugin/plugin.json`: set `name` (lowercase kebab-case), `displayName`, `author`, `description`, `keywords`, `license`, and `version`.
-3. Replace placeholder rules, skills, agents, commands, hooks, scripts, and logos.
+```bash
+node scripts/validate-template.mjs
+```
 
-To add more plugins, see `docs/add-a-plugin.md`.
+## Source
 
-## Single plugin vs multi-plugin
+The server code is open source at [github.com/1102tools-dev/federal-contracting-mcps](https://github.com/1102tools-dev/federal-contracting-mcps).
 
-This template defaults to **multi-plugin** (multiple plugins in one repo).
+## License
 
-For a **single plugin**, move your plugin folder contents to the repository root, keep one `.cursor-plugin/plugin.json`, and remove `.cursor-plugin/marketplace.json`.
-
-## Submission checklist
-
-- Each plugin has a valid `.cursor-plugin/plugin.json`.
-- Plugin names are unique, lowercase, and kebab-case.
-- `.cursor-plugin/marketplace.json` entries map to real plugin folders.
-- All frontmatter metadata is present in rule, skill, agent, and command files.
-- Logos are committed and referenced with relative paths.
-- `node scripts/validate-template.mjs` passes.
-- Repository link is ready for submission to the Cursor team (Slack or `kniparko@anysphere.com`).
+MIT. See [LICENSE](LICENSE).

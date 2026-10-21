@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gsa-per-diem": {
+      "type": "http",
+      "url": "https://gsa-perdiem.1102tools.com/mcp"
+    }
+  }
+}

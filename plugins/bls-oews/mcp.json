@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bls-oews": {
+      "type": "http",
+      "url": "https://bls-oews.1102tools.com/mcp"
+    }
+  }
+}

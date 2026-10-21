@@ -1,0 +1,20 @@
+{
+  "name": "ecfr",
+  "displayName": "eCFR by 1102tools",
+  "version": "1.0.0",
+  "description": "Read FAR, DFARS and agency supplement text, definitions, and what changed and when. Free, hosted, no API key.",
+  "author": {
+    "name": "1102tools"
+  },
+  "homepage": "https://1102tools.com/mcp/ecfr",
+  "repository": "https://github.com/1102tools-dev/1102tools-cursor-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "federal-contracting",
+    "government",
+    "ecfr"
+  ],
+  "category": "integrations",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ecfr": {
+      "type": "http",
+      "url": "https://ecfr.1102tools.com/mcp"
+    }
+  }
+}

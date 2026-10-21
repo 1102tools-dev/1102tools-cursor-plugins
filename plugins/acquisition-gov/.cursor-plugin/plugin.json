@@ -1,0 +1,20 @@
+{
+  "name": "acquisition-gov",
+  "displayName": "Acquisition.gov by 1102tools",
+  "version": "1.0.0",
+  "description": "FAR Overhaul model text, posted agency deviations and guidance from Acquisition.gov. Free, hosted, no API key.",
+  "author": {
+    "name": "1102tools"
+  },
+  "homepage": "https://1102tools.com/mcp/acquisition-gov",
+  "repository": "https://github.com/1102tools-dev/1102tools-cursor-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "federal-contracting",
+    "government",
+    "acquisition.gov"
+  ],
+  "category": "integrations",
+  "mcpServers": "./mcp.json"
+}

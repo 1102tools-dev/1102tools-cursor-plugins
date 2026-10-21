@@ -1,23 +1,57 @@
 {
-  "name": "cursor-plugin-starters",
+  "name": "1102tools",
   "owner": {
-    "name": "Your Org",
-    "email": "plugins@example.com"
+    "name": "1102tools"
   },
   "metadata": {
-    "description": "Starter marketplace template for Cursor plugins",
-    "version": "0.1.0"
+    "description": "Nine free hosted MCP servers for federal contracting data, one plugin each. No account or API key.",
+    "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "starter-simple",
-      "source": "./plugins/starter-simple",
-      "description": "Minimal plugin with rules and skills only"
+      "name": "sam-gov",
+      "source": "./plugins/sam-gov",
+      "description": "Search SAM.gov contract opportunities, entity registrations, SBA certifications and exclusions. Free, hosted, no API key."
     },
     {
-      "name": "starter-advanced",
-      "source": "./plugins/starter-advanced",
-      "description": "Full-featured plugin with rules, skills, agents, commands, hooks, and MCP"
+      "name": "usaspending",
+      "source": "./plugins/usaspending",
+      "description": "Look up past federal awards: contracts, grants, recipients, agencies and subawards. Free, hosted, no API key."
+    },
+    {
+      "name": "ecfr",
+      "source": "./plugins/ecfr",
+      "description": "Read FAR, DFARS and agency supplement text, definitions, and what changed and when. Free, hosted, no API key."
+    },
+    {
+      "name": "gsa-calc",
+      "source": "./plugins/gsa-calc",
+      "description": "GSA CALC+ awarded labor ceiling rates for pricing proposals and IGCEs. Free, hosted, no API key."
+    },
+    {
+      "name": "bls-oews",
+      "source": "./plugins/bls-oews",
+      "description": "BLS market wages by occupation and location for pricing proposals and IGCEs. Free, hosted, no API key."
+    },
+    {
+      "name": "gsa-per-diem",
+      "source": "./plugins/gsa-per-diem",
+      "description": "GSA per diem lodging and M&IE rates by city, state or ZIP for pricing travel. Free, hosted, no API key."
+    },
+    {
+      "name": "federal-register",
+      "source": "./plugins/federal-register",
+      "description": "Proposed and final rules, notices, comment periods and FAR case history. Free, hosted, no API key."
+    },
+    {
+      "name": "regulations-gov",
+      "source": "./plugins/regulations-gov",
+      "description": "Rulemaking dockets, documents and public comments from Regulations.gov. Free, hosted, no API key."
+    },
+    {
+      "name": "acquisition-gov",
+      "source": "./plugins/acquisition-gov",
+      "description": "FAR Overhaul model text, posted agency deviations and guidance from Acquisition.gov. Free, hosted, no API key."
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "regulations-gov": {
+      "type": "http",
+      "url": "https://regulations-gov.1102tools.com/mcp"
+    }
+  }
+}
